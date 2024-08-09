@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 100px;
+}
+
+h1{
+   
+    
+    margin:9px 380px;
+  margin-top: 50px;
+
+}
+ .logo{
+    display: flex;
+    position: fixed;
+    margin: 10px -50px;
+    margin-top: -100px;
+    
+}
+ .logo img{
+    height: 100px;
+    margin:10px 380px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 100px;
+}
+
+ ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    position:fixed;
+    left:95px;
+   top: 100px;
+    
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+   
+}
+
+.navbar ul li a{
+    color:black;
+    margin: 10px 34px;
+    padding: 3px 30px;
+  
+   
+    text-decoration: none;
+   
+    margin: 10px;
+}
+
+.navbar ul li a:hover{
+    color:white;
+    background-color:black;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#home::before{ 
+    content: "";
+    position:fixed;
+    background: url('../bg1.webp') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.6;
+}
+
+#home h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color:rgb(77, 34, 34);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary{
+    font-family:cursive;
+    font-size: 2.5rem;
+    padding: 12px;
+   display: block;
+   
+}
+#services-container{
+    margin-top: -250px;
+}
+#services{
+    margin: 34px;
+    display:flex;
+    position:relative;
+    
+   background-color: orangered;
+}
+#services .box{ 
+    border: 2px solid black;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background:rgb(242, 242, 65);
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+   background-color: yellow;
+}
+
+#services .box p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+} 
